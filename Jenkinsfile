@@ -32,7 +32,7 @@ pipeline {
                 }
 
                 failure {
-                    echo ' Deployment failed.'
+                    echo ' Deployment to production failed.'
                 }
             }
         }
